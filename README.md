@@ -1,4 +1,4 @@
-# <img align="right"  src="https://user-images.githubusercontent.com/98846377/218634155-92e75d9a-9821-40be-a67a-293be20e557c.png" width="250px"/> Práctica 1                                         
+# <img align="right"  src="https://github.com/SebastianHerrera/LFP_202110588/blob/main/Reportes/LogoUSAC.png?raw=true" width="250px"/> Práctica 1                                         
 
 
 ## Laboratorio de Lenguajes Formales y de Programación
