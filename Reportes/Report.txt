@@ -1,0 +1,21 @@
+// Example
+digraph {
+	a1 [label="The Avengers \n2012 |  Ficcion" color=red shape=box style=filled]
+	a2 [label=" Robert Downey Jr,Chris Evans,Chris Hemsworth " color=yellow shape=box style=filled]
+	a1 -> a2
+	a3 [label="Spiderman\n2002 | Accion" color=red shape=box style=filled]
+	a4 [label="Tobey Maguire,Kirsten Dunst,Willem Dafoe" color=yellow shape=box style=filled]
+	a3 -> a4
+	a5 [label="The Amazing Spiderman\n2012 | Accion" color=red shape=box style=filled]
+	a6 [label="Andrew Garfield,Emma Stone" color=yellow shape=box style=filled]
+	a5 -> a6
+	a7 [label="The Amazing Spiderman 2\n2014 | Accion" color=red shape=box style=filled]
+	a8 [label=" Andrew Garfield,Emma Stone" color=yellow shape=box style=filled]
+	a7 -> a8
+	a9 [label="Spiderman Homecoming\n2017 | Accion" color=red shape=box style=filled]
+	a10 [label="Tom Holland, Zendaya" color=yellow shape=box style=filled]
+	a9 -> a10
+	a11 [label="Avengers Infinity War\n2018 | Accion" color=red shape=box style=filled]
+	a12 [label="Robert Downey Jr,Tom Holland" color=yellow shape=box style=filled]
+	a11 -> a12
+}
