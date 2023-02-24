@@ -68,12 +68,13 @@ while state==0:
             for impresion in movies:
                 print(Fore.WHITE+str(impresion.id),Fore.YELLOW+impresion.nombre)
             print()
-            movie = int(input(Fore.GREEN+"Ingrese el número de la película de la que desea saber sus actores:   "+Fore.WHITE))
-            for index in movies:
-                if index.id == movie:
+            movie_in = int(input(Fore.GREEN+"Ingrese el número de la película de la que desea saber sus actores:   "+Fore.WHITE))
+            print(movie_in)
+            for ind in movies:
+                if ind.id == movie_in:
                     print()
-                    print(Fore.YELLOW+impresion.nombre)
-                    print(Fore.WHITE+"ACTORES: "+Fore.BLUE+impresion.actores)
+                    print(Fore.YELLOW+ind.nombre)
+                    print(Fore.WHITE+"ACTORES: "+Fore.BLUE+ind.actores)
                     print()
         else:
             print(Fore.RED+"La opción ingresada no es correcta.")
